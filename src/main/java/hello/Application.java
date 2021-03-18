@@ -11,6 +11,10 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
+		int a =5;
+		int b =10;
+		a =+ 10;
+		b+=5;
 		return "Jenkins app work as expected.";
 	}
 
